@@ -5,16 +5,15 @@ on:
   push:
     tags:
       - "v*"
-
+permissions:
+      contents: write
 env:
   PROJECT_NAME: Ritmota2
 
 jobs:
   create_release:
     name: Create release
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    runs-on: ubuntu-latest    
     outputs:
       upload_url: ${{steps.create_release.outputs.upload_url}}
     steps:
