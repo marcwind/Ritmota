@@ -33,7 +33,7 @@ Ritmota2::Ritmota2(const InstanceInfo& info)
     pGraphics->SetLayoutOnResize(true);
     pGraphics->AttachCornerResizer(EUIResizerMode::Size, true);
     pGraphics->LoadFont("Roboto-Regular", ROBOTO_FN);
-    pGraphics->AttachPanelBackground(COLOR_ORANGE);
+    pGraphics->AttachPanelBackground(COLOR_RED);
     pGraphics->AttachControl(new IVSliderControl(sliderBounds, kParamGain), kCtrlTagSlider);
     pGraphics->AttachControl(new ITextControl(titleBounds, "Ritmota2", IText(30)), kCtrlTagTitle);
     WDL_String buildInfoStr;

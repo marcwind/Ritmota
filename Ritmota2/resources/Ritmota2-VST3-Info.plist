@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Ritmota2</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Ritmota2 v0.0.0 Copyright 2024 Acme Inc</string>
+	<string>Ritmota2 v0.1.0 Copyright 2024 Acme Inc</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.marcwindmusic.vst3.Ritmota2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.0.0</string>
+	<string>0.1.0</string>
 	<key>CFBundleSignature</key>
-	<string>9c0G</string>
+	<string>HhOX</string>
 	<key>CFBundleVersion</key>
-	<string>0.0.0</string>
+	<string>0.1.0</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>LSMinimumSystemVersion</key>
